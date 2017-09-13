@@ -1,0 +1,6 @@
+library(devtools)
+install_github("Rstudio/blogdown")
+library(blogdown)
+install_hugo()
+new_site(theme = "calintat/minimal")
+build_site()
