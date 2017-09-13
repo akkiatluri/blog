@@ -5,9 +5,9 @@ theme = "minimal"
 disqusShortname = "username" # delete this to disable disqus comments
 
 [params]
-    author = "Calin Tataru"
-    description = "Personal blog theme powered by Hugo"
-    githubUsername = "#"
+    author = "Akhilesh Atluri"
+    description = "Daily posts on R and Data Science"
+    githubUsername = "akkiatluri"
     accent = "red"
     showBorder = true
     backgroundColor = "white"
@@ -36,17 +36,17 @@ disqusShortname = "username" # delete this to disable disqus comments
 # The list of available icons can be found at http://fontawesome.io/icons/
 
 [[menu.icon]]
-    url = "mailto:me@example.com"
+    url = "aatlur87@lakers.mercyhurst.edu"
     name = "envelope-o"
     weight = 1
 
 [[menu.icon]]
-    url = "https://github.com/username/"
+    url = "https://github.com/akkiatluri/"
     name = "github"
     weight = 2
 
 [[menu.icon]]
-    url = "https://twitter.com/username/"
+    url = "https://twitter.com/akkiatluri/"
     name = "twitter"
     weight = 3
 
@@ -54,8 +54,3 @@ disqusShortname = "username" # delete this to disable disqus comments
     url = "https://www.linkedin.com/in/username/"
     name = "linkedin"
     weight = 4
-
-[[menu.icon]]
-    url = "https://www.stackoverflow.com/username/"
-    name = "stack-overflow"
-    weight = 5
