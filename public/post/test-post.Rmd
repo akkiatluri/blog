@@ -1,0 +1,22 @@
+---
+title: "test-post"
+author: "Akhilesh Atluri"
+date: "September 13, 2017"
+output: html_document
+---
+
+
+
+```{r message =FALSE, warning=FALSE}
+library(Lahman)
+library(dplyr)
+```
+
+
+```{r}
+
+Batting%>%
+  select(playerID,yearID,teamID,HR)%>%
+filter(teamID=="NYA" & yearID==1927)
+
+```
