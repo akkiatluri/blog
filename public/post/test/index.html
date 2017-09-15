@@ -126,24 +126,44 @@
     
 
     <h4><a href="/post/test/">test</a></h4>
-    <h5>September 13, 2017</h5>
+    <h5>September 15, 2017</h5>
     
 
 </div>
 
 
-    <br> <div class="text-justify"><pre><code class="language-r message =FALSE, warning=FALSE">library(Lahman)
-library(dplyr)
-</code></pre>
-
-<p>now , suppose we would like to see the homerun totals for the 1927 new york yankees. we could run the following code</p>
-
-<pre><code class="language-r">
-Batting%&gt;%
+    <br> <div class="text-justify"><p>This is just a test</p>
+<pre class="r"><code>library(Lahman)
+library(dplyr)</code></pre>
+<pre class="r"><code>Batting%&gt;%
   select(playerID,yearID,teamID,HR)%&gt;%
-  filter(teamID==&quot;NYA&quot; &amp; yearID==1927)
-
-</code></pre>
+filter(teamID==&quot;NYA&quot; &amp; yearID==1927)</code></pre>
+<pre><code>##     playerID yearID teamID HR
+## 1  beallwa01   1927    NYA  0
+## 2  bengobe01   1927    NYA  0
+## 3  collipa01   1927    NYA  7
+## 4  combsea01   1927    NYA  6
+## 5  duganjo01   1927    NYA  2
+## 6  durstce01   1927    NYA  0
+## 7  gazelmi01   1927    NYA  0
+## 8  gehrilo01   1927    NYA 47
+## 9  giardjo01   1927    NYA  0
+## 10 grabojo01   1927    NYA  0
+## 11  hoytwa01   1927    NYA  0
+## 12 koenima01   1927    NYA  3
+## 13 lazzeto01   1927    NYA 18
+## 14 meusebo01   1927    NYA  8
+## 15 moorewi01   1927    NYA  1
+## 16 morehra01   1927    NYA  1
+## 17 paschbe01   1927    NYA  2
+## 18 pennohe01   1927    NYA  0
+## 19 pipgrge01   1927    NYA  1
+## 20 ruethdu01   1927    NYA  1
+## 21  ruthba01   1927    NYA 60
+## 22 shawkbo01   1927    NYA  0
+## 23 shockur01   1927    NYA  0
+## 24 thomamy01   1927    NYA  0
+## 25  weraju01   1927    NYA  1</code></pre>
 </div>
 
     

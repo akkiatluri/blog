@@ -1,0 +1,23 @@
+---
+title: test
+author: Akhilesh Atluri
+date: '2017-09-15'
+slug: test
+categories: [dplyr,Lahman]
+tags: []
+---
+This is just a test 
+
+```{r message=FALSE, warning=FALSE}
+library(Lahman)
+library(dplyr)
+```
+
+```{r}
+
+Batting%>%
+  select(playerID,yearID,teamID,HR)%>%
+filter(teamID=="NYA" & yearID==1927)
+
+```
+

@@ -2,23 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Akk&#39;s Data Science blog</title>
-    <link>https://akkisblog.netlify.com/</link>
+    <link>/</link>
     <description>Recent content on Akk&#39;s Data Science blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 13 Sep 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 15 Sep 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://akkisblog.netlify.com/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>test</title>
-      <link>https://akkisblog.netlify.com/post/test/</link>
-      <pubDate>Wed, 13 Sep 2017 00:00:00 +0000</pubDate>
+      <link>/post/test/</link>
+      <pubDate>Fri, 15 Sep 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://akkisblog.netlify.com/post/test/</guid>
-      <description>library(Lahman) library(dplyr)  now , suppose we would like to see the homerun totals for the 1927 new york yankees. we could run the following code
-Batting%&amp;gt;% select(playerID,yearID,teamID,HR)%&amp;gt;% filter(teamID==&amp;quot;NYA&amp;quot; &amp;amp; yearID==1927)  </description>
+      <guid>/post/test/</guid>
+      <description>This is just a test
+library(Lahman)library(dplyr)Batting%&amp;gt;%select(playerID,yearID,teamID,HR)%&amp;gt;%filter(teamID==&amp;quot;NYA&amp;quot; &amp;amp; yearID==1927)## playerID yearID teamID HR## 1 beallwa01 1927 NYA 0## 2 bengobe01 1927 NYA 0## 3 collipa01 1927 NYA 7## 4 combsea01 1927 NYA 6## 5 duganjo01 1927 NYA 2## 6 durstce01 1927 NYA 0## 7 gazelmi01 1927 NYA 0## 8 gehrilo01 1927 NYA 47## 9 giardjo01 1927 NYA 0## 10 grabojo01 1927 NYA 0## 11 hoytwa01 1927 NYA 0## 12 koenima01 1927 NYA 3## 13 lazzeto01 1927 NYA 18## 14 meusebo01 1927 NYA 8## 15 moorewi01 1927 NYA 1## 16 morehra01 1927 NYA 1## 17 paschbe01 1927 NYA 2## 18 pennohe01 1927 NYA 0## 19 pipgrge01 1927 NYA 1## 20 ruethdu01 1927 NYA 1## 21 ruthba01 1927 NYA 60## 22 shawkbo01 1927 NYA 0## 23 shockur01 1927 NYA 0## 24 thomamy01 1927 NYA 0## 25 weraju01 1927 NYA 1</description>
     </item>
     
   </channel>
